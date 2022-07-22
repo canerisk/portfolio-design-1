@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  font-family: 'Inter', sans-serif;
+
+}
+*{
+    transition: all .2s;
+    scroll-behavior: smooth;
+
+    outline: none;
+    
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  linear-gradient(0deg, rgb(235, 84, 84) 0%, rgb(0, 179, 211) 100%);
+  border: 2px solid #F3F4F6;
+  border-radius: 30vh;
+}
+
+.hoverbg{
+  background-size: 300px;
+
+}
+.hoverbgborder:hover .hoverbg{
+  background-size: 350px;
+}
